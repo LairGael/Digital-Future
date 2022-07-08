@@ -17,7 +17,7 @@ const cargarElementoServicio = (entradas, observadorServicio) => {
 const observadorServicio = new IntersectionObserver(cargarElementoServicio, {
     root: null,
     rootMargin: '0px 0px 0px 0px',
-    threshold: .8
+    threshold: .4
 });
 
 

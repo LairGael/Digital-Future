@@ -69,7 +69,7 @@ const cargarElemento = (entradas, observador) => {
 const observador = new IntersectionObserver(cargarElemento, {
     root: null,
     rootMargin: '0px 0px 0px 0px',
-    threshold: .3
+    threshold: .2
 });
 
 
