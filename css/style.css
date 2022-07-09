@@ -214,7 +214,8 @@ body, html{
 /*Contenido*/
 .neumorfismo_empresa{
     width: 95%;
-    margin: 5% auto;
+    margin: auto;
+    margin-top: -5%;
     margin-bottom: 150px;
     padding: 10px;
     border-radius: 30px;
