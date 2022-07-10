@@ -676,6 +676,7 @@ body, html{
     }
 
     .nav-menu-item{
+        margin: 8%;
         line-height: 70px;
     }
 
