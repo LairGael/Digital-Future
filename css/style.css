@@ -183,7 +183,7 @@ body, html{
     position: absolute;
     width: 40px;
     height: 40px;
-    top: 50%;
+    top: 35%;
     color: #f36e35;
     transform: translateY(-50);
     font-size: 64px;
@@ -283,7 +283,7 @@ body, html{
 
 
 .contrato{
-    width: 80%;
+    width: 90%;
     max-width: 1200px;
     margin: auto;
     margin-top: 10%;
@@ -331,22 +331,19 @@ body, html{
     text-align: justify;
 }
 
-.centrado{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+.razones img{
+    width: 60%;
     margin: auto;
-    padding: 20px 10px;
-    text-align: center;
-    transition: 1s;
+    margin-left: 23%;
+    margin-top: 10%;
+    transition: 1.5s;
 }
 
-.centrado:hover{
+.razones img:hover{
     border-radius: 10px;
     -webkit-transform:scale(.8);
     transform:scale(.8);
     transition: 1.5s;
-    border-radius: 30%;
 }
 
 .foot{
@@ -800,6 +797,15 @@ body, html{
         width: 60%;
         display: block;
         margin: auto;
+    }
+
+    .razones{
+        width: 70%;
+    }
+
+    .razones img{
+        width: 30%;
+        margin-top: 10%;
     }
 
     /*Somos*/
