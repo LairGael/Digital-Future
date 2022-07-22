@@ -511,9 +511,9 @@ body, html{
 }
 
 .lista_valores img{
-    width: 80%;
-    display: block;
-    margin: 10px auto;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 20%;
 }
 
 
@@ -525,16 +525,21 @@ body, html{
 .servicios_trabajo{
     width: 80%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 60px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 30px;
 
     border-radius: 50px;
-    background: rgba(110, 110, 112, 0.11);
+    background: rgb(255, 255, 255);
     opacity: 0;
     scale: (0.8);
     transition: 1.5s;
+
+    border-radius: 50px;
+background: #ffffff;
+box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
 }
 
 .servicios_trabajo.visible{
@@ -862,7 +867,7 @@ body, html{
     }
 
     .lista_valores{
-        width: 90%;
+        width: 80%;
         padding: 20px;
     }
 
@@ -875,8 +880,12 @@ body, html{
         font-size: 22px;
         text-align: left;
     }
-
-
+    
+    .lista_valores img{
+        width: 50%;
+        margin-top: 10%;
+        margin-left: 25%;
+    }
     /*Servicios*/
     .servicios_proyectos{
         margin-top: 80px;
