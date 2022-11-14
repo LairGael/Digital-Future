@@ -401,10 +401,10 @@ body, html{
     margin: 10px auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: rgb(243, 110, 53);
-    background: #f36e35;
-    box-shadow:  5px 5px 0px #a04923,
-                -5px -5px 0px #ff9347;
+    background-color: rgb(53, 243, 243);
+    background: #35d7f3;
+    box-shadow:  5px 5px 0px #238da0,
+                -5px -5px 0px #47f3ff;
 }
 
 .texto_somos{
@@ -456,7 +456,7 @@ body, html{
     font-size: 48px;
     font-family: 'Signika', sans-serif;
     text-align: center;
-    color: rgb(243, 110, 53);
+    color: rgb(53, 230, 243);
 }
 
 .nuestros_valores{
@@ -548,7 +548,7 @@ body, html{
 
 .titulo_proyectos{
     width: 100%;
-    color: rgb(243, 110, 53);
+    color: rgb(53, 173, 243);
     font-family: 'Signika', sans-serif;
     font-size: 200%;
     margin: auto;
@@ -587,7 +587,7 @@ body, html{
 
 
 .barra_naranja{
-    background-color: rgb(243, 110, 53);
+    background-color: rgb(53, 189, 243);
     padding-top: 0%;
     width: 100%;
     height: 10px;
@@ -665,14 +665,14 @@ box-shadow:  20px 20px 60px #d9d9d9,
 
 .mapa_contacto p{
     font-family: 'Signika', sans-serif;
-    color: rgb(243, 110, 53);
+    color: rgb(53, 215, 243);
     font-size: 38px;
 }
 
 .datos_contacto{
     width: 100%;
     height: auto;
-    background-color: rgb(243, 110, 53);
+    background-color: rgb(53, 199, 243);
     
     margin: 50px auto;
     line-height: 70%;
@@ -740,7 +740,7 @@ box-shadow:  20px 20px 60px #d9d9d9,
 .atribuciones h1{
     text-align: center;
     font-family: 'Signika', sans-serif;
-    color: rgb(243, 110, 53);
+    color: rgb(53, 199, 243);
     font-size: 200%;
 }
 
@@ -824,7 +824,7 @@ box-shadow:  20px 20px 60px #d9d9d9,
     .contacto_foot{
         margin-top: 10%;
         display: block;
-        background-color: rgb(243, 110, 53);
+        background-color: rgb(53, 215, 243);
         width: 100%;
         height: auto;
         display: grid;
