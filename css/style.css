@@ -361,7 +361,7 @@ body, html{
 
 .foot{
     width: 100%;
-    background-color: darkgray;
+    background-color: rgb(14, 135, 165);
     height: 20%;
     display: flex;
     margin: 20px auto;
