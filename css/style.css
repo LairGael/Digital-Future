@@ -12,7 +12,7 @@ body, html{
 /* Datos contacto*/
 
 .contacto{
-    background-color: rgb(243, 110, 53);
+    background-color: rgb(53, 173, 243);
     width: 100%;
     height: auto;
     display: grid;
@@ -195,7 +195,7 @@ body, html{
     width: 40px;
     height: 40px;
     top: 35%;
-    color: #f36e35;
+    color: #35edf3;
     transform: translateY(-50);
     font-size: 64px;
     font-weight: bold;
@@ -205,7 +205,7 @@ body, html{
 }
 
 .carrusel_boton:hover {
-    color: #c23a00;
+    color: #0054c2;
     
 
     -webkit-transform:scale(1.1);
@@ -279,7 +279,7 @@ body, html{
 
 .nombre_empresa{
     font-family: 'Signika', sans-serif;
-    color: rgb(243, 110, 53);
+    color: rgb(53, 189, 243);
     font-size: 42px;
     margin-top: 10px;
     display: block;
@@ -312,7 +312,7 @@ body, html{
 }
 
 .razones{
-    background-color: rgb(243, 110, 53);
+    background-color: rgb(53, 167, 243);
     height: 90%;
     border-radius: 10px;
     min-height: 200px;
@@ -323,9 +323,9 @@ body, html{
     margin: auto;
     margin-top: 0px;
     border-radius: 10px;
-    background: #f36e35;
-    box-shadow:  4px 4px 7px #c0572a,
-                -4px -4px 7px #ff8540;
+    background: #35d7f3;
+    box-shadow:  4px 4px 7px #2ab6c0,
+                -4px -4px 7px #40d9ff;
 }
 
 .razones h2{
